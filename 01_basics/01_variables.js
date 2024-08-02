@@ -16,3 +16,8 @@ accountPassword = "21212121"
 accountCity = "Bengaluru"
 
 console.table([accountId, accountEmail, accountPassword, acountCity]);
+
+
+// documentation : ecma262 https://tc39.es/ecma262/#sec-tokens
+// documentation : mdn web docs https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
