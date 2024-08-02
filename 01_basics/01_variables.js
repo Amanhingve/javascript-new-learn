@@ -2,6 +2,7 @@ const accountId = 123445
 let accountEmail = "kI3pD@example.com"
 var accountPassword = "32145"
 acountCity = "chhinwara"
+let = accountstate;
 
 // accountId = 123456 // no change constant variable
 console.log(accountId);
