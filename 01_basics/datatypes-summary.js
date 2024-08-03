@@ -63,9 +63,3 @@ userTwo.email = "aman@google.com"
 
 console.log(userOne.email)
 console.log(userTwo.email)
-
-
-
-
-
-
