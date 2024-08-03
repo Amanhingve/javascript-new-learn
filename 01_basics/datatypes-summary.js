@@ -43,7 +43,7 @@ console.log(typeof anotherId);
 // Stack (Primitive), Heap (Non-Primitive)
 
  // diagram drawing --> https://github.com/Amanhingve/javascript-new-learn/blob/main/01_basics/Stack%20(Primitive)%2C%20Heap%20(Non-Primitive).png
-
+//  /workspaces/javascript-new-learn/01_basics/Stack (Primitive), Heap (Non-Primitive).png
 let myYoutubename = "amanhingvedotcom"
 
 let anothername = myYoutubename
@@ -53,7 +53,7 @@ console.log(anothername);
 
 
 let userOne = {
-    email："user@google.com",
+    email:"user@google.com",
     upi: "user@ybl"
 }
 
@@ -63,6 +63,7 @@ userTwo.email = "aman@google.com"
 
 console.log(userOne.email)
 console.log(userTwo.email)
+
 
 
 
