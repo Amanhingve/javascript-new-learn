@@ -31,3 +31,12 @@ newDate.toLocaleString('default', {
     weekday: "long",
     
 })
+
+const array = ["a","b","c"];
+const elements = [0,1,2,3,4,5];
+
+// array.push.apply(array,elements);
+// console.log(array)//output:- [ 'a', 'b', 'c', 0, 1, 2, 3, 4, 5]
+  
+// array.push(...elements);
+// console.info(array)//output:- [ 'a', 'b', 'c', 0, 1, 2, 3, 4, 5]
