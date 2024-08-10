@@ -1,4 +1,6 @@
-// array
+// +++++++++++++++++++++++++++++++++++++++++++++++ array +++++++++++++++++++++++++++++++++++++++++++++++++ //
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
 const myArr = [0, 1, 2, 3, 4, 5]
 const myHeors = ["shaktiman", "naagraj"]
