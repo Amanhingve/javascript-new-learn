@@ -1,3 +1,7 @@
+// +++++++++++++++++++++++++++++++++++++++++++++++ array +++++++++++++++++++++++++++++++++++++++++++++++++ //
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
 const marvel_heros = ["thor", "Ironman", "spiderman"]
 const dc_heros = ["superman", "flash", "batman"]
 
