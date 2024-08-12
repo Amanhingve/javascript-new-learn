@@ -79,4 +79,19 @@ function returnSecondValue(getArray){
 }
 
 // console.log(returnSecondValue(myNewArray));
-console.log(returnSecondValue([200, 400, 500, 1000]));
+// console.log(returnSecondValue([200, 400, 500, 1000]));
+
+// ++++++++++++++++++++++++++ function call ++++++++++++++++++++++++++
+
+function one(){
+    console.log("one")
+}
+function two(){
+    console.log("two")
+}
+function three(){
+    console.log("three")
+}
+one()
+two()
+three()
