@@ -29,6 +29,7 @@ function one(){
 
 // one()
 
+
 if (true) {
     const username = "aman"
     if (username === "aman") {
@@ -52,7 +53,7 @@ function addone(num){
 
 
 
-addTwo(5)
+addTwo(5) // error
 const addTwo = function(num){
     return num + 2
 }
