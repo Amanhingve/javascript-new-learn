@@ -1,3 +1,5 @@
+// reduce -->  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+
 const myNums = [1, 2, 3]
 
 // const myTotal = myNums.reduce(function (acc, currval) {
