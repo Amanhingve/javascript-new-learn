@@ -16,6 +16,8 @@ for (const greet of greetings) {
 
 // Maps
 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
+
 const map = new Map()
 map.set('IN', "India")
 map.set('USA', "United States of America")
