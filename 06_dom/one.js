@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> // inspect console --> console.log(window), console.log(window.document), console.log(document), console.dir(document), console.log()
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,6 +14,7 @@
 <body class="bg-black">
     <div >
         <h1  id="title" class="heading">DOM learning on Chai aur code <span style="display: none;">test text</span></h1>
+        
         <h2>Lorem ipsum dolor sit.</h2>
         <h2>Lorem ipsum dolor sit.</h2>
         <h2>Lorem ipsum dolor sit.</h2>
