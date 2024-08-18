@@ -1,4 +1,4 @@
-<!DOCTYPE html> // inspect console --> console.log(window), console.log(window.document), console.log(document), console.dir(document), console.log()
+<!DOCTYPE html> // inspect console --> console.log(window), console.log(window.document), console.log(document), console.dir(document), console.log(document.baseURI), console.log(document.links), console.log(document.links[2])
 <html lang="en">
 <head>
     <meta charset="UTF-8">
