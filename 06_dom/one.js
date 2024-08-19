@@ -14,18 +14,26 @@
 <body class="bg-black">
     <div >
         <h1  id="title" class="heading">DOM learning on Chai aur code <span style="display: none;">test text</span></h1>
+//inspect console --> documentgetElementById('title'), documentgetElementById('title').id , documentgetElementById('title').className , documentgetElementById('title').getAttribute , documentgetElementById('title').detAttribute('id'), documentgetElementById('title').getAttribute('class') ,
+//inspect console --> documentgetElementById('title').setAttribute('class' , 'test') , documentgetElementById('title').setAttribute('class' , 'test heading') , document.getElementsByClassName('heading') , const title = documentgetElementById('title') ,
+//inspect console --> const title = documentgetElementById('title') , title , title.style.backgroundColor = 'green' , title.padding = "15px" , title.borderRedius = "15px" , title.textContent , title.innerHTML , title.innerText , 
+//inspect console --> document.querySelector('h1') , document.querySelector('#title') , document.querySelector('.heading') , document.querySelector('input[type="password"]') , document.querySelector('p:first-child') ,
         
         <h2>Lorem ipsum dolor sit.</h2>
         <h2>Lorem ipsum dolor sit.</h2>
         <h2>Lorem ipsum dolor sit.</h2>
         <p>Lorem ipsum dolor sit amet.</p>
         <input type="password" name="" id="">
-
+//inspect console --> document.querySelector('ul') , const myul = document.uerySelector('ul') , myul.querySelector('li') , const turnGreen = myul.querySelector('li') , turnGreen.style.backgroundColor = "green" , turnGreen.style-padding = "10px" , turnGreen.innerText , turnGreen.innerText = "five" ,
+//inspect console --> document.querySelectorAll('li') , cosnt tempLiList = document.querySelectorAll('li') , tempLiList , tempLiList[0].style.color = 'green' , tempLiList.forEach(function (l) {L.style.backgroundColor ='green'｝）,
+//inspect console --> const myH1 = document.querySelectorAll('h1') , myH1 , myH1[0].sytle.color = 'green' , 
+        
         <ul>
             <li class="list-item">one</li>
             <li class="list-item">two</li>
             <li class="list-item">three</li>
             <li class="list-item">four</li>
+//inspect console --> documentgetElementByClassName('list-item') , const tempClassList = documentgetElementByClassName('list-item') , tempClassList , array.from(tempClassList) , const myconvertArray =Array.from(tempClassList) , myconvertArray , myconvertArray.forEach(function (li) {li.sytle.color = 'orange' }) ,  
         </ul>
     </div>
 </body>
