@@ -10,6 +10,10 @@
     <button id="stop">Stop</button>
 </body>
 <script>
+    // setTimeout (function (){
+    //     console. log ("Hitesh");
+    // }, 2000)
+
     const sayHitesh = function(){
         console.log("Hitesh");
     }
