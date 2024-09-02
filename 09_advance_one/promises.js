@@ -89,6 +89,8 @@ consumePromiseFive()
 
 //getAllUsers()
 
+//fetch --> https://blog.logrocket.com/fetch-api-node-js/
+
 fetch('https://api.github.com/users/hiteshchoudhary')
 .then((response) => {
     return response.json()
