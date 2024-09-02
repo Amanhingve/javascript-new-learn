@@ -90,6 +90,7 @@ consumePromiseFive()
 //getAllUsers()
 
 //fetch --> https://blog.logrocket.com/fetch-api-node-js/
+// fetch --> https://developer.mozilla.org/en-US/docs/Web/APl/fetch
 
 fetch('https://api.github.com/users/hiteshchoudhary')
 .then((response) => {
