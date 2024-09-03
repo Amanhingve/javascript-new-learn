@@ -21,7 +21,7 @@ Object.prototype.hitesh = function(){
 }
 
 Array.prototype.heyHitesh = function(){
-    console.log(`Hitesh says hello`);
+    console.log(`aman says hello`);
 }
 
 // heroPower.hitesh()
@@ -55,7 +55,7 @@ Teacher.__proto__ = User
 // modern syntax
 Object.setPrototypeOf(TeachingSupport, Teacher)
 
-let anotherUsername = "ChaiAurCode     "
+let anotherUsername = "aman     "
 
 String.prototype.trueLength = function(){
     console.log(`${this}`);
