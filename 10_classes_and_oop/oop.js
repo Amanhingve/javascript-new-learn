@@ -30,7 +30,7 @@ function User(username, loginCount, isLoggedIn){
 
     return this
 }
-
+// new keyword -->Creates a new, empty object.  Sets the this keyword to point to the new object.  Calls the constructor function with the provided arguments.  Returns the new object.
 const userOne = new User("hitesh", 12, true)
 const userTwo = new User("ChaiAurCode", 11, false)
 console.log(userOne.constructor);
