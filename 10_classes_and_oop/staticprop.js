@@ -13,7 +13,7 @@ class User {
 }
 
 const aman = new User("aman")
-// console.log(hitesh.createId())
+// console.log(aman.createId())
 
 class Teacher extends User {
     constructor(username, email){
