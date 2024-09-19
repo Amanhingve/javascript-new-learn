@@ -104,3 +104,8 @@ button:hover {
     padding: 12px;
   }
 }
+
+.red-box{
+  background-color: brown;
+  color: #5e9b38;
+}
