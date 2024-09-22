@@ -50,16 +50,17 @@ function endGame() {
 
   const resetButton = document.createElement('button');
   resetButton.textContent = 'Start new game';
-  resetButton.style.backgroundColor = '#4CAF50';
-  resetButton.style.color = 'white';
-  resetButton.style.padding = '10px 20px';
-  resetButton.style.border = 'none';
-  resetButton.style.borderRadius = '5px';
-  resetButton.style.cursor = 'pointer';
-  resetButton.style.marginTop = '10px';
-  resetButton.style.marginBottom = '10px';
-  resetButton.style.fontSize = '16px';
-  resetButton.style.fontWeight = 'bold';
+  resetButton.classList.add('reset-button')
+  // resetButton.style.backgroundColor = '#4CAF50';
+  // resetButton.style.color = 'white';
+  // resetButton.style.padding = '10px 20px';
+  // resetButton.style.border = 'none';
+  // resetButton.style.borderRadius = '5px';
+  // resetButton.style.cursor = 'pointer';
+  // resetButton.style.marginTop = '10px';
+  // resetButton.style.marginBottom = '10px';
+  // resetButton.style.fontSize = '16px';
+  // resetButton.style.fontWeight = 'bold';
   document.body.append(resetButton);
   resetButton.addEventListener('click', resetGame);
 }

@@ -109,3 +109,28 @@ button:hover {
   background-color: brown;
   color: #5e9b38;
 }
+
+.reset-button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: block;
+}
+/* // resetButton.style.backgroundColor = '#4CAF50';+
+  // resetButton.style.color = 'white';+
+  // resetButton.style.padding = '10px 20px';+
+  // resetButton.style.border = 'none';+
+  // resetButton.style.borderRadius = '5px';+
+  // resetButton.style.cursor = 'pointer';+
+  // resetButton.style.marginTop = '10px';+
+  // resetButton.style.marginBottom = '10px';+
+  // resetButton.style.fontSize = '16px';+
+  // resetButton.style.fontWeight = 'bold'; */
