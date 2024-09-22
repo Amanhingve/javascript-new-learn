@@ -47,7 +47,6 @@ function checkGuess(event) {
 function endGame() {
   guessField.disabled = true;
   guessSubmit.disabled = true;
-
   const resetButton = document.createElement('button');
   resetButton.textContent = 'Start new game';
   resetButton.classList.add('reset-button')
